@@ -12,7 +12,7 @@ async def spenking_sheep(message: types.Message):
     user = message.from_user
     chat = message.chat
 
-    msgs = ["Вас выебал осел", "Бэээ", "Вас изнасиловали тристо козлов", "Вы выебали собаку и съели ее"]
+    msgs = ["Вас выебал осел", "Бэээ", "Вас изнасиловали тристо козлов", "Вы выебали собаку и съели ее", "Вы накончали в овечку!"]
     
     rnd_msg = random.choice(msgs)
 
